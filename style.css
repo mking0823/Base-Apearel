@@ -22,19 +22,32 @@ body{
 
 main{
   background:url(/images/bg-pattern-desktop.svg);
- 
-  fill: linear-gradient(135deg, #F8BFBF 0%, #EE8B8B 100%);;
+  background-color: linear-gradient(221deg, #FFF1F1 0%, #FFF 100%);
   background-size:cover;
   max-width:375px;
   width:100%;
   font-family: 'Josefin Sans', sans-serif;
-  text-align:center;
+  box-sizing: border-box;
 }
 h1{
   font-size:2.5rem;
+  color:var(--Desaturated-Red);
+  font-weight: 300;
+  word-spacing: 375px;
+  text-align: center;
+  text-transform:uppercase;
+  
+}
+.sec-hed{
+color:var(--Dark-Grayish-Red) ;
+font-weight: 600;
 
 }
 
 .hero-img{
   content:url(images/hero-mobile.jpg);
+}
+
+.text-container{
+  margin:auto 32px 92px 32px;
 }
